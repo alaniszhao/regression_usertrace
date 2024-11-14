@@ -11,7 +11,7 @@ longitude = df['longitude']
 timestamp_offset = df['timestamp_offset']
 compass = df['compass']
 
-step = 10
+step = 5
 latitude = latitude[::step]
 longitude = longitude[::step]
 compass = compass[::step]
